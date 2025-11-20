@@ -1,0 +1,8 @@
+﻿services:
+  testproject101-1:
+    image: testproject101-1
+    build:
+      context: .
+      dockerfile: TestProject101-1/Dockerfile
+    volumes:
+      - ./test-results:/app/TestResults
